@@ -1,0 +1,225 @@
+*{
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 200px;
+    background-color: red;
+}
+.phan1{
+    display: flex;
+}
+
+header div img{
+    padding-top: 10px;
+    height: 200px;
+    width: 200px;
+    margin-left: 10%;
+}
+header div p{
+    text-transform: uppercase;
+    padding-top: 30px;
+    text-align: center;
+    font-weight: 700;
+    justify-content: center;
+    width: 80%;
+    font-size: 40px;
+    color: aliceblue;
+}
+
+nav div{
+    background-color: rgb(149, 83, 211);
+    
+}
+nav div ul{
+    display: flex;
+    width: 90%;
+}
+nav div ul li{
+    padding-top: 20px;
+    text-align: center;
+    list-style: none;
+    height: 40px;
+    text-transform: uppercase;
+
+}
+
+nav div ul li a{
+    padding: 25px 50px;
+    color: rgb(255, 238, 208);
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    
+}
+nav div ul li:hover{
+    background-color: blueviolet;
+    
+}
+
+nav div ul li a:hover{
+    color: yellow;
+    
+}
+aside{
+    padding:0px 1%; 
+   
+    width: 90%;
+}
+.all{
+    padding: 20px;
+   display: flex;
+   
+}
+div.dt img{
+    width: 150px;
+    margin-left: 17px;
+    
+}
+div.dt:hover {
+    transform: scale(1.1);
+    
+}
+
+div.dt{
+    height: 220px;
+    padding:18px 18px ;
+    border: 2px solid black;
+    margin-left:9px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0,0,0,0.19);
+    
+}
+div.dt p{
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.hot{
+    font-size: 26px;
+    color: red;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+div.dt a{
+    text-decoration: none;
+    padding: 6px;
+    background-color: blue;
+    color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-left: 13%;
+    text-transform: uppercase;
+}
+div.dt a:hover{
+    background-color: orange;
+
+    color: blue;
+    font-weight: bolder;
+}
+.xemthem{
+    padding-left: 2%;
+    padding-right: 1%;
+}
+div.xemthem a{
+    font-weight: 400;
+    font-size: 17px;
+    text-decoration: none;
+    border: 2px solid blue ;
+    padding: 7px 16px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    background-color: blue;
+    color: white;
+}
+hr{
+    width: 103%;
+    color: blue;
+}
+th{
+    font-size: 20px;
+    padding-top: 15px  ;
+    text-align: center;
+}
+td{
+    font-size: 11px;
+    padding: 4px 4px ;
+    text-align: center;
+    
+}
+
+footer{
+    width: 98%;
+    height: 170px;
+    background-color: dimgrey;
+}
+table{
+    margin-left: 3%;
+}
+.xemthem a:hover{
+    background-color: orange;
+
+    color: blue;
+    font-weight: bolder;
+}
+td  a{
+    color: black;
+    font-size: 19px;
+    text-decoration: none;
+    padding:10px;
+}
+td a:hover{
+    color: red;
+    font-weight: 400;
+}
+.thongtin{
+    display: flex;
+}
+.thongtin img{
+    width:30%;
+    padding:10px;
+}
+
+.end{
+    display: flex;
+    width: 98%;
+    background-color: darkgrey;
+}
+.end p a{
+     font-size: 18px;
+     font-weight: 300;
+}
+.foot{
+    display: flex;
+}
+.ds{
+    padding: 27px;
+    margin-left: 45%;
+
+}
+ .bth{
+    padding: 15px;
+    border: 2px solid black;
+    background-color: antiquewhite;
+    text-decoration: none;
+    color: blue;
+    font-weight: 700;
+
+}
+.so{
+    padding: 15px;
+    border: 2px solid black;
+    background-color: rgb(252, 190, 110);
+    text-decoration: none;
+    color: blue;
+    font-weight: 700;
+}
+.ds a:hover {
+    background-color: rgb(252, 190, 110);
+}
+
+
+
